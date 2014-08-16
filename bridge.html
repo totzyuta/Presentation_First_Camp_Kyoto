@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>77777777777</title>
+	<meta name="author" content="Alvaro Trigo Lopez" />
+	<meta name="description" content="fullPage full-screen sliders navigation widh dots." />
+	<meta name="keywords"  content="fullpage,jquery,demo,screen,fullscreen,sliders navigation, horizontal navigation,horizontal,navigation,dots" />
+	<meta name="Resource-type" content="Document" />
+
+
+	<link rel="stylesheet" type="text/css" href="jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<style>
+
+	/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+		margin:0;
+  }
+	h3{
+		font-size: 8em;
+		font-family: arial,helvetica;
+		color: #fff;
+    margin:100px;
+    padding-left: 200px;
+  }
+
+	.intro p{
+		color: #fff;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+  }
+
+  .slide img {
+     -moz-border-radius:10px;
+     -webkit-border-radius:10px;
+     border-radius:10px;
+     width: 60%;
+     height: auto;
+     float: left;
+     margin: 20px;
+   }
+
+	.slide h2{
+		font-size: 3.5em;
+		font-family: arial,helvetica;
+		color: #fff;
+    margin: 0;
+    margin-bottom: 40px;
+    font-weight: bold;
+	}
+  .slide p, li{
+    font-size: 2em;
+		font-family: arial,helvetica;
+    color: #fff;
+    margin-bottom: 10px;
+	}
+
+
+	/* Overwriting styles for the navigation dots (to place it where we want)
+	* --------------------------------------- */
+	.fullPage-slidesNav.bottom{
+		bottom: 25px;
+	}
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
+	}
+
+	#section2 h1{
+		color: #333;
+	}
+
+	</style>
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="../vendors/jquery.slimscroll.min.js"></script>
+
+	<script type="text/javascript" src="jquery.fullPage.js"></script>
+	<script type="text/javascript" src="bridge.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['firstPage', 'secondPage', 'thirdPage', 'fouthPage'],
+				sectionsColor: ['#21AC06', '#1D8AFF', '#21AC06', '#FF5555'],
+				slidesNavigation: true,
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+<div id="fullpage">
+	<div class="section " id="section0">
+    <div class="intro">
+      <img src="./images/top.jpg" width="72%" height="auto">
+		</div>
+  </div>
+
+	<div class="section" id="section1">
+    <div class="slide" id="slide1" data-anchor="slide1">
+			<div class="intro">
+				<h1>Mentors</h1>
+			</div>
+    </div>
+    <div class="slide" id="slide2" data-anchor="slide2">
+      <img src="./images/ariyui.jpg">
+      <h2>ありゆい / 凸</h2>
+      <ul>
+        <li>とまと</li>
+        <li>睡眠</li>
+        <li>食べる</li>
+        <li>旅行</li>
+        <li>------------------------</li>
+        <li>ウガンダ</li>
+        <li>コーヒー</li>
+        <li>ドラム</li>
+      </ul>
+    </div>
+  </div>
+
+	<div class="section" id="section2">
+    <div class="slide" id="slide1" data-anchor="slide1">
+			<div class="intro">
+				<h1>Members</h1>
+			</div>
+    </div>
+    <div class="slide" id="slide2" data-anchor="slide2">
+      <a href="http://lit-web.jp/summer2014/kyoto/Web-teamN-7777777777/rui/myhouse00.html" target="_blank"><img src="./images/rui.jpg"></a>
+      <h2>ルイ</h2>
+      <ul>
+        <li>ゲーム</li>
+        <li>モンハン</li>
+        <li>やみつききゅうり</li>
+        <li>かき氷</li>
+      </ul>
+    </div>
+    <div class="slide" id="slide3" data-anchor="slide3">
+      <a href="http://lit-web.jp/summer2014/kyoto/Web-teamN-7777777777/nakasen/home.html" target="_blank"><img src="./images/nakasen.jpg"></a>
+      <h2>なかせん</h2>
+      <ul>
+        <li>ラーメン</li>
+        <li>銀魂</li>
+        <li>J-ROCK</li>
+        <li>モンハン</li>
+      </ul>
+    </div>
+    <div class="slide" id="slide4" data-anchor="slide4">
+      <a href="http://lit-web.jp/summer2014/kyoto/Web-teamN-7777777777/akki/win-index.html" target="_blank"><img src="./images/akki.jpg"></a>
+      <h2>あっきー</h2>
+      <ul>
+        <li>レタス</li>
+        <li>ポンデリング</li>
+        <li>ドラえもん</li>
+        <li>ゲーム</li>
+        <li>meet-me</li>
+        <li>Life is Tech!</li>
+      </ul>
+    </div>
+    <div class="slide" id="slide5" data-anchor="slice5">
+      <a href="http://lit-web.jp/summer2014/kyoto/Web-teamN-7777777777/kaho/index.html" target="_blank"><img src="./images/kaho.jpg"></a>
+      <h2>かほ</h2>
+      <ul>
+        <li>吹奏楽部</li>
+        <li>フルート</li>
+        <li>backnumber</li>
+        <li>いぬ！！</li>
+        <li>ヨークシャテリア</li>
+      </ul>
+    </div>
+    <div class="slide" id="slide6" data-anchor="slide6">
+      <a href="http://naginote.com/WordPress/" target="_blank"><img src="./images/nagi.jpg"></a>
+      <h2>ナギ</h2>
+      <h3>旅中</h3>
+    </div>
+    <div class="slide" id="slide2" data-anchor="slide2">
+      <a href="http://lit-web.jp/summer2014/kyoto/Web-teamN-7777777777/ayumu/index.html" target="_blank"><img src="./images/ayumu.jpg"></a>
+      <h2>あゆむ</h2>
+      <ul>
+        <li>本が好き</li>
+        <li>音楽も好き</li>
+        <li>ONE&#9734DFAFT</li>
+        <li>Acid Black Cherry</li>
+        <li>クロミちゃんも好き</li>
+      </ul>
+    </div>
+    <div class="slide" id="slide7" data-anchor="slide7">
+      <a href="http://aqueous-retreat-7221.herokuapp.com/users/sign_in" target="_blank"><img src="./images/kachan.jpg"></a>
+      <h2>かっちゃん</h2>
+      <ul>
+        <li>吹奏楽部</li>
+        <li>バリトンサックス</li>
+        <li>クラシック</li>
+        <li>(分からないと思うけど)</li>
+        <li>ストラヴィンスキー</li>
+        <li>プロコフィエフ</li>
+        <li>トムヤムクン</li>
+      </ul>
+    </div>
+  </div>
+
+	<div class="section" id="section3">
+		<div class="intro">
+      <h1>Thank you!</h1>
+      <br>
+      <h1>ありがとうございました！</h1>
+		</div>
+  </div>
+
+</body>
+</html>
